@@ -1,4 +1,6 @@
 .your-business {
+  margin-top: 180px;
+
   font-family: "Poppins";
   display: flex;
   flex-direction: column;
@@ -27,8 +29,10 @@
   }
 
   &__list {
+    width: 100%;
     margin-top: 80px;
     display: flex;
+    justify-content: space-between;
   }
 
   &__column {
