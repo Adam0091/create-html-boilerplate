@@ -25,6 +25,8 @@
       <%=
         _.template(require('../includes/common/header.html').default)({version:
         htmlWebpackPlugin.options.custom.version,}) %>
+
+        <%= _.template(require('../includes/index/banner.html').default)({}) %>
       </div>
 
       <main>

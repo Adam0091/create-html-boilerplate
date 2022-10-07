@@ -1,0 +1,55 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 59px;
+
+  &__content {
+    width: 511px;
+  }
+
+  &__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+
+    color: #000000;
+
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    margin: 0;
+    margin-bottom: 30px;
+
+    color: #575455;
+  }
+
+  &__btn {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+    border: 0;
+    padding: 12px 43px;
+
+    background: #1f7cff;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+
+  &__img {
+    margin-right: 59px;
+  }
+}
