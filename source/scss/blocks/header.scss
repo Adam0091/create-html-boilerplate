@@ -1,4 +1,43 @@
 .header {
-  background-color: $white;
-  margin: 0;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+  }
+
+  &__sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 143px;
+    height: 48px;
+    background: #f5f6fb;
+    border-radius: 10px;
+
+    color: #070f18;
+  }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  &__item {
+    font-weight: 400;
+    color: #070f18;
+  }
+
+  &__item--active {
+    font-weight: 600;
+    color: #070f18;
+  }
+}
+.container {
 }
