@@ -12,7 +12,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
       rel="stylesheet"
-      />
+    />
     <script>
       if (!window.HTMLPictureElement) {
         document.createElement('picture');
@@ -23,20 +23,19 @@
     <!--header.html-->
     <div class="page__container">
       <%=
-        _.template(require('../includes/common/header.html').default)({version:
-        htmlWebpackPlugin.options.custom.version,}) %>
+      _.template(require('../includes/common/header.html').default)({version:
+      htmlWebpackPlugin.options.custom.version,}) %> <%=
+      _.template(require('../includes/index/banner.html').default)({}) %> <%=
+      _.template(require('../includes/index/logotypes.html').default)({}) %>
+    </div>
 
-        <%= _.template(require('../includes/index/banner.html').default)({}) %>
-      </div>
-
-      <main>
-
-        <%=
-          _.template(require('../includes/index/for-your-business.html').default)({})
-          %>
-        </main>
-        <!--footer.html-->
-        <!-- <%= _.template(require('../includes/common/footer.html').default)({})
+    <main>
+      <%=
+      _.template(require('../includes/index/for-your-business.html').default)({})
+      %>
+    </main>
+    <!--footer.html-->
+    <!-- <%= _.template(require('../includes/common/footer.html').default)({})
         %> -->
-      </body>
-    </html>
+  </body>
+</html>
